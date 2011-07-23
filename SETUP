@@ -1,0 +1,29 @@
+#Git
+Global setup:
+
+ Set up git
+  git config --global user.name "Your Name"
+  git config --global user.email kopijawa@gmail.com
+  Add your public key
+        
+
+Next steps:
+
+  mkdir vaadin-gae-blobstore-example
+  cd vaadin-gae-blobstore-example
+  git init
+  touch README
+  git add README
+  git commit -m 'first commit'
+  git remote add origin git@github.com:kopijawa/vaadin-gae-blobstore-example.git OR https://kopijawa@github.com/kopijawa/vaadin-gae-blobstore-example.git
+  git push -u origin master
+      
+
+Existing Git Repo?
+
+  cd existing_git_repo
+  git remote add origin git@github.com:kopijawa/vaadin-gae-blobstore-example.git OR https://kopijawa@github.com/kopijawa/vaadin-gae-blobstore-example.git
+  git push -u origin master
+      
+
+
